@@ -18,6 +18,11 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+    }
+
     sourceSets {
         main {
             manifest.srcFile "AndroidManifest.xml"
